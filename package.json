@@ -1,0 +1,15 @@
+{
+  "name": "knip-repro-codegen",
+  "type": "module",
+  "exports": "./dist/foo.js",
+  "scripts": {
+    "generate": "node ./generate.js",
+    "foo": "node ./dist/foo.js",
+    "test": "knip --production --strict"
+  },
+  "dependencies": {
+    "indent-string": "^5.0.0",
+    "knip": "^5.27.0",
+    "lpad": "^3.0.0"
+  }
+}
